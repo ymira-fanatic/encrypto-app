@@ -1,16 +1,45 @@
-# encrypto
+# 🔐Encrypto App
 
-A new Flutter project.
+A simple Encrypt/Decrypt mobile app built with Flutter (frontend) and Python FastAPI (backend).
+Users can enter text to encrypt, or ciphertext to decrypt, and save both locally for later use.
 
-## Getting Started
+## 🔑Features
 
-This project is a starting point for a Flutter application.
+- Encryption: Enter plain text → get ciphertext.
 
-A few resources to get you started if this is your first Flutter project:
+- Decryption: Enter ciphertext → get plaintext.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Local Save: Save plaintext and ciphertext in local SQLite DB.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Simple UI: Two-button home screen (Encrypt / Decrypt).
+
+- Backend API:
+
+    /encrypt → returns ciphertext
+
+    /decrypt → returns plaintext
+
+- Deployment: Backend runs on Render.
+
+
+## 🏗️ Tech Stack
+
+### 📱Frontend :
+
+  Flutter
+
+### 🖥️Backend :
+
+  Python FastAPI
+
+### ☁️Hosting & 🛠️Tools :
+
+  Render → API hosting
+
+  Swagger UI → API testing
+
+
+## 👩‍💻 Author
+
+Built with ❤️ as a fun project to learn Flutter + FastAPI + Render.
+
